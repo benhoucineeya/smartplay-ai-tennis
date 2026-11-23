@@ -1,4 +1,4 @@
-"""NeuMF (GMF + MLP) in PyTorch. Guarded: refuses to train on too little data. NOT executed in the build environment (no torch)."""
+"""NeuMF (GMF + MLP) in PyTorch. Guarded: refuses to train on too little data"""
 import numpy as np
 
 def build_neumf(n_users, n_items, d=8, hidden=(16, 8)):
